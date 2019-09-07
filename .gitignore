@@ -1,0 +1,5 @@
+Cleaning_notebooks/
+pdf-files/
+txt-files/
+*.csv
+*.tsv
