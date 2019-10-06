@@ -9,3 +9,6 @@ Created the README file on: 07/09/19
 
 **Wrangle and Analyse Data**
 ***
+### Description
+
+Real-world data rarely comes clean. Using Python and its libraries, I learned to gather data from a variety of sources and formats, assess its quality and tidiness, then eventually cleaning the data after identifying the issues. These tasks enhanced my data wrangling skills.
