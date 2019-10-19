@@ -33,7 +33,7 @@ There were three datasets I had to take into consideration.
 * __tweet_id__ - used to identify the users. This was the only contents available across all three tables, to be used as a primary key.
 * __timestamp__ - the time of the tweet
 * __text__ - the twitter users' post containing comments about their respective dog.
-* __rating_numerator__ - the maximum rating they gave. Some users were overly excitied, exceeding the conventional '10' scale. I took this into consideration when cleaning.
+* __rating_numerator__ - the maximum rating they gave. Some users were overly excited, exceeding the conventional '10' scale. I took this into consideration when cleaning.
 * __rating_denominator__ - conventionally out of '10', but again some users gave a rating below/above 10, for which I corrected eventually.
 * __name__ - the name of the dog
 * __dog_stage__ - illustrated the dog stage for each dog at the time of the tweet. The main issue came under data tidiness, as there were four values in four different columns with no defined variable. Instead, one variable (dog_stage) corresponding to these four different values would suffice.
