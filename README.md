@@ -16,7 +16,7 @@ Real-world data rarely comes clean. Using Python and its libraries, I learned to
 This project revolves around wrangling **WeRateDogs Twitter** data to create interesting and trustworthy analyses and visualisations. **WeRateDogs** is a Twitter account that rates people's dogs with a humorous comment about the dog. Additional gathering, then assessing and cleaning is required for functional analyses and visualisations.
 
 The methodology I used for assessing data quality and then the solutions to clean the data came in the following three steps:
-1. Gather - utlising a flat (csv) download, web scraping via requests and API programmatic download via the `Tweepy` python library.*
+1. Gather - utilising a flat (csv) download, web scraping via requests and API programmatic download via the `Tweepy` python library.*
 2. Assessing - mainly looking for issues within the dataset under **(1) data quality**, which identifies content issues such as missing data and **(2) data tidiness**, composed of structural issues that make the data untidy, hindering machine-readability as seen when there are multiple contents/observations in a row.
 3. Cleaning - acting on the issues spotted during the assessment phase. I also utilised a sub 3 step process to implement these changes more clearly.
     - **Define** - document the issue and then signal what is going to be done
@@ -64,3 +64,12 @@ There were three datasets I had to take into consideration.
     - retweet count - increased from around 2492 (2015) to 22209 (2017).
 - Based on the relationship of average favorite count on average retweet count, there exhibits a reasonably ***strong*** **positive correlation**, given a correlation coefficient of 0.79.
     - It is reasonable to suggest that as the average favorite count increases, the average retweet count also increases.
+
+### Files used
+
+Although this is mainly Twitter data, Udacity provided most of resources/guidance for acquiring and wrangling the various file types.
+* [twitter-archive data - original](<https://drive.google.com/open?id=1fgmaLdYH_h4O2lgNhjfs0N8lPn_LOBM_hVrWeE2WwXc>)
+* [twitter-archive data - cleaned](<https://drive.google.com/open?id=1gqubT4uVYcxV8dOS1LiSprEFwxD_on4UyXWuf7VtOkA>)
+* [image-predictions data](<https://drive.google.com/open?id=1yXNL8glNqEgyxYEfxrXTURXadE_jA6UL>)
+    * [Udacity cloud link](<https://d17h27t6h515a5.cloudfront.net/topher/2017/August/599fd2ad_image-predictions/image-predictions.tsv>)
+* [tweet-json data - favorite and retweet count](<https://drive.google.com/open?id=1jlxi7QZcBILFy73163RvAEG3iwUM_pwx>)
