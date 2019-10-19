@@ -73,3 +73,13 @@ Although this is mainly Twitter data, Udacity provided most of resources/guidanc
 * [image-predictions data](<https://drive.google.com/open?id=1yXNL8glNqEgyxYEfxrXTURXadE_jA6UL>)
     * [Udacity cloud link](<https://d17h27t6h515a5.cloudfront.net/topher/2017/August/599fd2ad_image-predictions/image-predictions.tsv>)
 * [tweet-json data - favorite and retweet count](<https://drive.google.com/open?id=1jlxi7QZcBILFy73163RvAEG3iwUM_pwx>)
+
+### References
+
+Beyond my Udacity mentor, peers and lectures, I consulted a number of resources including:
+
+* [Reading and Writing JSON to a File in Python](<https://stackabuse.com/reading-and-writing-json-to-a-file-in-python/>)
+* [Tweepy Documentation](<https://buildmedia.readthedocs.org/media/pdf/tweepy/latest/tweepy.pdf>)
+* [WeRateDogs Twitter page](<https://twitter.com/dog_rates?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor>)
+* McKinney (2017) - Python for Data Analysis 2e, see chapters 6-8
+* [DataCamp - Cleaning Data in Python](<https://www.datacamp.com/courses/cleaning-data-in-python>)
