@@ -54,3 +54,13 @@ There were three datasets I had to take into consideration.
 
 * __retweet_count__ - each tweet's retweet country.
 * __favorite_count ('like')__ - each tweet's favorite count.
+
+### Findings
+
+- More than 80% of users (at least 1600) gave the highest rating (10) to the dogs tweeted, suggesting that WeRateDogs is a popular account among users based on views/follows.
+- The most popular breed ranked in terms of tweets is the Golden retriever with 150 references.
+- Given the tweet coverage from 2015-2017, both average retweet and favorite count for the WeRateDogs twitter page increased on average per year.
+    - favorite count - increased from around 1080 (2015) to 6357 (2017).
+    - retweet count - increased from around 2492 (2015) to 22209 (2017).
+- Based on the relationship of average favorite count on average retweet count, there exhibits a reasonably ***strong*** **positive correlation**, given a correlation coefficient of 0.79.
+    - It is reasonable to suggest that as the average favorite count increases, the average retweet count also increases.
