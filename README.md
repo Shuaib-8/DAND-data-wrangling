@@ -57,13 +57,13 @@ There were three datasets I had to take into consideration.
 
 ### Findings
 
-- More than 80% of users (at least 1600) gave the highest rating (10) to the dogs tweeted, suggesting that WeRateDogs is a popular account among users based on views/follows.
+- Around 80% of users (at least 1600) gave the highest rating (10) to the dogs tweeted, suggesting that WeRateDogs is a popular account among users based on views/follows.
 - The most popular breed ranked in terms of tweets is the Golden retriever with 150 references.
 - Given the tweet coverage from 2015-2017, both average retweet and favorite count for the WeRateDogs twitter page increased on average per year.
     - favorite count - increased from around 1080 (2015) to 6357 (2017).
     - retweet count - increased from around 2492 (2015) to 22209 (2017).
-- Based on the relationship of average favorite count on average retweet count, there exhibits a reasonably ***strong*** **positive correlation**, given a correlation coefficient of 0.79.
-    - It is reasonable to suggest that as the average favorite count increases, the average retweet count also increases.
+- Based on the relationship of favorite count on retweet count, there exhibits a reasonably ***strong*** **positive correlation**, given a correlation coefficient of 0.79.
+    - It is reasonable to suggest that as the favorite count increases, the retweet count also increases.
 
 ### Files used
 
@@ -81,5 +81,6 @@ Beyond my Udacity mentor, peers and lectures, I consulted a number of resources 
 * [Reading and Writing JSON to a File in Python](<https://stackabuse.com/reading-and-writing-json-to-a-file-in-python/>)
 * [Tweepy Documentation](<https://buildmedia.readthedocs.org/media/pdf/tweepy/latest/tweepy.pdf>)
 * [WeRateDogs Twitter page](<https://twitter.com/dog_rates?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor>)
-* McKinney (2017) - Python for Data Analysis 2e, see chapters 6-8
+* [Wickham (2014) - Tidy data](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html)
+* [McKinney (2017) - Python for Data Analysis 2e, see chapters 6-8](https://wesmckinney.com/pages/book.html)
 * [DataCamp - Cleaning Data in Python](<https://www.datacamp.com/courses/cleaning-data-in-python>)
